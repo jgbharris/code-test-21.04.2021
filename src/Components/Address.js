@@ -2,7 +2,7 @@ function Address(props) {
 
     return (
         <div>
-           {props.ip}
+           <p>IP Address: {props.ip}</p>
         </div>
     );
 }
