@@ -21,7 +21,7 @@ function MainPage() {
 
     return (
         <div className="main-page">
-            <div className="info-container">
+            <div className="container">
                 <Address
                     ip={data.ip}>
                 </Address>

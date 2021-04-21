@@ -11,8 +11,9 @@
 }
 
 
-.info-container {
+.container {
  margin-top: 100px;
+ display: inline-block;
 }
 
 

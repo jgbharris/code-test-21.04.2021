@@ -4,7 +4,7 @@ function Country(props) {
 
     return (
         <div>
-            <p>Country: {props.country}</p>
+            <p className="country-paragraph">Country: {props.country}</p>
             <img src={`https://flagcdn.com/16x12/${countryInLowerCase}.png`}></img>
         </div>
     );
