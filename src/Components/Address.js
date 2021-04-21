@@ -1,8 +1,8 @@
-function Address() {
+function Address(props) {
 
     return (
         <div>
-            TEST - MainPage
+           {props.ip}
         </div>
     );
 }

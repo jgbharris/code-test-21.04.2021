@@ -1,8 +1,8 @@
-function Country() {
+function Country(props) {
 
     return (
         <div>
-            TEST - MainPage
+            {props.country}
         </div>
     );
 }
